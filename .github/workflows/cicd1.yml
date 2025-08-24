@@ -55,7 +55,7 @@ jobs:
         cache: maven
     - name: Unit test cases
       run: mvn test    
-  build_project_and_sonar_scan::
+  build_project_and_sonar_scan:
     runs-on: self-hosted
     needs: Test
     steps:
